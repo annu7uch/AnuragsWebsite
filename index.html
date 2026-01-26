@@ -32,6 +32,16 @@
     </div>
 
     <script src="_framework/blazor.webassembly.js"></script>
+<script>
+    window.setTheme = (theme) => {
+        document.documentElement.setAttribute('data-bs-theme', theme);
+        localStorage.setItem('theme', theme); // Saves the choice for next time!
+    };
+
+    // Check for saved theme on page load
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-bs-theme', savedTheme);
+</script>
 </body>
 
 </html>
