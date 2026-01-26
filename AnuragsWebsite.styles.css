@@ -90,12 +90,6 @@ main[b-i7wcdkvvkd] {
     background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
 }
 
-.navbar-toggler:focus[b-ea4p12cfc6] {
-    text-decoration: none;
-    outline: none;
-    box-shadow: 0 0 0 0.25rem;
-}
-
 .top-row[b-ea4p12cfc6] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
@@ -103,51 +97,46 @@ main[b-i7wcdkvvkd] {
 
 .navbar-brand[b-ea4p12cfc6] {
     font-size: 1.1rem;
+    color: white !important;
 }
 
+/* Perfect Vertical Alignment for Icons */
 .bi[b-ea4p12cfc6] {
-    display: inline-block;
-    position: relative;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.75rem;
-    top: -1px;
-    vertical-align: middle;
-    background-size: cover;
-    filter: invert(100%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+    color: #ffffff !important; /* Pure White */
+    font-size: 1.4rem;        /* Slightly larger */
 }
 
 .nav-item[b-ea4p12cfc6] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+    padding-bottom: 0.25rem;
 }
 
-    .nav-item:first-of-type[b-ea4p12cfc6] {
-        padding-top: 1rem;
-    }
+/* Use Flexbox on the anchor tag to center the icon and span */
+.nav-item[b-ea4p12cfc6]  a {
+    color: #f0f0f0 !important;
+    border-radius: 4px;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
 
-    .nav-item:last-of-type[b-ea4p12cfc6] {
-        padding-bottom: 1rem;
-    }
+.nav-item[b-ea4p12cfc6]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white !important;
+}
 
-    .nav-item[b-ea4p12cfc6]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-        .nav-item[b-ea4p12cfc6]  a.active {
-            background-color: rgba(255,255,255,0.37);
-            color: white;
-        }
-
-        .nav-item[b-ea4p12cfc6]  a:hover {
-            background-color: rgba(255,255,255,0.1);
-            color: white;
-        }
+.nav-item[b-ea4p12cfc6]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white !important;
+}
 
 @media (min-width: 641px) {
     .navbar-toggler[b-ea4p12cfc6] {
