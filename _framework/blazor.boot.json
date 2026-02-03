@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AnuragsWebsite",
   "resources": {
-    "hash": "sha256-j9K9Nkw89Qg1wR7d0h8pjO8bCfuIgM6s4Z67kFQTuhk=",
+    "hash": "sha256-PSkqvJePxvsiDwAaxr7JoZX0tVPIhF4ZeIJsQYcSry0=",
     "jsModuleNative": {
       "dotnet.native.8.0.23.v3mcfhfyc0.js": "sha256-NljIbpK/1KCj0+knpX8U77Rbl5kTtfFIuFjK7AuczEw="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "AnuragsWebsite.wasm": "sha256-rgTVHHKjx1hvTlp1FsE9z9Z+oUnnOG4s95+9+Kincb4=",
+      "AnuragsWebsite.wasm": "sha256-l0tVi6kT2jst+/xW9El9OehfCg5JZVmcKp26LNm0bTw=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-YquoTEALp/DhRW1eMREthASzdCA6/rfkuW9UYj1Nxww=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-zLcDg1BdFuMgwQnSmtRVGgt0WB98NaL7X2/xb5DS72E=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-t+s/X5Az4gbn9iaZgBFtkuj8zo+VsXJlxj5ABt9UxMU=",
